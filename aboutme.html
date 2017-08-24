@@ -2,6 +2,25 @@
 <html>
   <head>
     <title>About Me</title>
+    <style>
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('img_parallax.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
   </head>
   
   <body>
@@ -15,9 +34,20 @@
               Scratch project, <a href= "https://scratch.mit.edu/projects/168597480/"> Shape Building</a>,
               Scratch project, <a href= "https://scratch.mit.edu/projects/168670461/"> Paddle Ball Game</a>,
               and a robotic sensor project. <img src="https://github.com/sylvia5150/portfolio/blob/gh-pages/IMG_4645.JPG?raw=true" class="robot"><img></p>
-  </body>
+
+    <div class="parallax"></div>
+
+    <div style="height:1000px;background-color:red;font-size:36px">
+    Scroll Up and Down this page to see the parallax scrolling effect.
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+
+    <div class="parallax"></div>
+
+   </body>
   
-  <style>
+<!--   <style>
     body {
       background-color: e6e6ff;
     }
@@ -42,44 +72,6 @@
       height: 100px;
       width: 100px;
       }
-  </style>
+  </style> -->
 </html>
 
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body, html {
-    height: 100%;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url('img_parallax.jpg');
-
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
-</head>
-<body>
-
-<div class="parallax"></div>
-
-<div style="height:1000px;background-color:red;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
-
-<div class="parallax"></div>
-
-</body>
-</html>
